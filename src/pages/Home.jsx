@@ -27,6 +27,17 @@ const Home = () => {
           <li>Capstone - Treatment analytics for MUHC</li>
         </ul>
       </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        <h2>Reading List</h2>
+        <ul>
+          <li>The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling</li>
+          <li>Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems</li>
+        </ul>
+      </motion.div>
     </motion.div>
   );
 };
