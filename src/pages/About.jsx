@@ -16,12 +16,13 @@ const About = () => {
         transition={{ delay: 0.2 }}
       >
         <p>Hello and thanks for stopping by! My name's Marcus, and I'm a Data Engineer based in Toronto, Canada.</p>
-        
+        <p>After making the Dean's List at McGill Engineering, I've worked with leading financial institutions across Canada including AMEX, TD, Manulife, Intact, and Desjardins.</p>
+
         <h2>What I use for work</h2>
         <ul>
           <li>Python, SQL, C#, Terraform, JS/TS</li>
           <li>Snowflake</li>
-          <li>Data Build Tool (DBT)</li>
+          <li>Data Build Tool (DBT), Airflow, Dagster</li>
           <li>Azure, AWS</li>
         </ul>
 

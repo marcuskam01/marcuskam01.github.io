@@ -19,7 +19,7 @@ const Contact = () => {
         <h2>Connect With Me</h2>
         <ul>
           <li>
-            Email: <a href="mailto:marcuskam01@gmail.com" className="textlink">marcuskam01@gmail.com</a>
+            Email: <a href="mailto:marcuskam01@gmail.com" className="textlink">marcuskam01[at]gmail.com</a>
           </li>
           <li>
             LinkedIn: <a href="https://www.linkedin.com/in/marcuskam/" className="textlink" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/marcuskam/</a>
@@ -29,7 +29,7 @@ const Contact = () => {
           </li>
         </ul>
 
-        <p>Always happy to discussing new projects and opportunities!</p>
+        <p>Always happy to discuss new project ideas and opportunities!</p>
       </motion.div>
     </motion.div>
   );
