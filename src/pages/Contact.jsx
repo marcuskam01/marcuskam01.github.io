@@ -22,7 +22,7 @@ const Contact = () => {
             Email: <a href="mailto:marcuskam01@gmail.com" className="textlink">marcuskam01[at]gmail.com</a>
           </li>
           <li>
-            LinkedIn: <a href="https://www.linkedin.com/in/marcuskam/" className="textlink" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/marcuskam/</a>
+            LinkedIn: <a href="https://www.linkedin.com/in/marcuskam/" className="textlink" target="_blank" rel="noopener noreferrer">linkedin.com/in/marcuskam/</a>
           </li>
           <li>
             GitHub: <a href="https://github.com/marcuskam01" className="textlink" target="_blank" rel="noopener noreferrer">github.com/marcuskam01</a>
