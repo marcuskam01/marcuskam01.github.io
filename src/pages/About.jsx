@@ -14,13 +14,13 @@ const About = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        <p>Hello! I'm a passionate developer who loves creating elegant and functional web applications.</p>
+        <p>Hello and thanks for stopping by! My name is Marcus, and I'm currently working as a Data Engineer at a private insurance company.</p>
         
         <h2>Skills</h2>
         <ul>
           <li>Frontend Development (React, HTML, CSS)</li>
-          <li>UI/UX Design</li>
-          <li>Responsive Web Design</li>
+          <li>Snowflake</li>
+          <li>Data Build Tool (DBT)</li>
         </ul>
 
         <h2>Interests</h2>

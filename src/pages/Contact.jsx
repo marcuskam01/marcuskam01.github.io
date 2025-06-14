@@ -14,16 +14,16 @@ const Contact = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        <p>Feel free to reach out to me through any of the following channels:</p>
+        <p>Feel free reach out to me through any of the following channels:</p>
         
         <h2>Connect With Me</h2>
         <ul>
-          <li>Email: your.email@example.com</li>
-          <li>GitHub: github.com/yourusername</li>
-          <li>LinkedIn: linkedin.com/in/yourusername</li>
+          <li>Email: marcuskam01@gmail.com</li>
+          <li>GitHub: github.com/marcuskam01</li>
+          <li>LinkedIn: www.linkedin.com/in/marcuskam/</li>
         </ul>
 
-        <p>I'm always open to discussing new projects and opportunities!</p>
+        <p>Always happy to discussing new projects and opportunities!</p>
       </motion.div>
     </motion.div>
   );

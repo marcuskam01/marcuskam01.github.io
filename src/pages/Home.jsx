@@ -19,7 +19,7 @@ const Home = () => {
       >
         <h2>Current Projects</h2>
         <ul>
-          <li>Personal Website - A minimalist bi-color themed portfolio</li>
+          <li>ReCap - your all-in-one corporate meeting assistant</li>
           <li>Project 2 - Description</li>
           <li>Project 3 - Description</li>
         </ul>
