@@ -28,12 +28,12 @@ body[data-theme="dark"] {
 
 .nav-container {
   background-color: var(--secondary-light);
-  padding: 1rem;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 100%;
+  width: calc(100% - 4rem);
   top: 0;
   z-index: 1000;
   transition: background-color var(--transition-speed);
@@ -64,7 +64,22 @@ body[data-theme="dark"] .nav-container {
   cursor: pointer;
   padding: 0.5rem;
   color: inherit;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color var(--transition-speed);
+}
+
+.theme-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+body[data-theme="dark"] .theme-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .page-container {
