@@ -19,13 +19,13 @@ const Contact = () => {
         <h2>Connect With Me</h2>
         <ul>
           <li>
-            Email: <a href="mailto:marcuskam01@gmail.com" class="textlink">marcuskam01@gmail.com</a>
+            Email: <a href="mailto:marcuskam01@gmail.com" className="textlink">marcuskam01@gmail.com</a>
           </li>
           <li>
-            LinkedIn: <a href="https://www.linkedin.com/in/marcuskam/" class="textlink" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/marcuskam/</a>
+            LinkedIn: <a href="https://www.linkedin.com/in/marcuskam/" className="textlink" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/marcuskam/</a>
           </li>
           <li>
-            GitHub: <a href="https://github.com/marcuskam01" class="textlink" target="_blank" rel="noopener noreferrer">github.com/marcuskam01</a>
+            GitHub: <a href="https://github.com/marcuskam01" className="textlink" target="_blank" rel="noopener noreferrer">github.com/marcuskam01</a>
           </li>
         </ul>
 
