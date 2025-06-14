@@ -78,16 +78,33 @@ body[data-theme="dark"] .nav-container {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.textlink:link {
+.textlink {
   color: #575757;
   background-color: transparent;
   text-decoration: underline;
+  transition: color var(--transition-speed);
 }
 
 .textlink:hover {
   color: #2b2b2b;
   background-color: transparent;
-  text-decoration: underline;
+}
+
+.textlink:visited {
+  color: #575757;
+}
+
+/* Dark theme styles */
+body[data-theme="dark"] .textlink {
+  color: #d4d4d4;
+}
+
+body[data-theme="dark"] .textlink:hover {
+  color: #ffffff;
+}
+
+body[data-theme="dark"] .textlink:visited {
+  color: #d4d4d4;
 }
 
 body[data-theme="dark"] .theme-toggle:hover {
