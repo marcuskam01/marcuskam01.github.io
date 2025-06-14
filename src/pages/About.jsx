@@ -15,14 +15,14 @@ const About = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        <p>Hello and thanks for stopping by! The name's Kam, Marcus Kam, and I'm currently working as a Data Engineer at a private insurance company.</p>
+        <p>Hello and thanks for stopping by! My name's Marcus, and I'm a Data Engineer based in Toronto, Canada.</p>
         
-        <h2>Skills and technologies</h2>
+        <h2>What I use for work</h2>
         <ul>
           <li>Python, SQL, C#, Terraform, JS/TS</li>
           <li>Snowflake</li>
           <li>Data Build Tool (DBT)</li>
-          <li>AWS, Azure</li>
+          <li>Azure, AWS</li>
         </ul>
 
         <h2>Interests</h2>
@@ -34,7 +34,7 @@ const About = () => {
         transition={{ delay: 0.2 }}>
         <h2>Where I've been</h2>
         <img src={hiking1} alt="Hiking picture 1" className="responsive-image-landscape"></img>
-        <figcaption>Waterton, AB/Glacier, MT, mid 2024</figcaption>
+        <figcaption>Waterton, AB, Summer 2024</figcaption>
       </motion.div>
     </motion.div>
   );

@@ -78,6 +78,18 @@ body[data-theme="dark"] .nav-container {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.textlink:link {
+  color: #575757;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.textlink:hover {
+  color: #2b2b2b;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 body[data-theme="dark"] .theme-toggle:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
