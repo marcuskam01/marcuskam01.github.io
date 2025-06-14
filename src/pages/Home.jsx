@@ -9,7 +9,7 @@ const Home = () => {
       className="page-container"
     >
       <h1>What I'm Building</h1>
-      <p>Welcome to my personal website! Here I showcase my current projects and developments.</p>
+      <p>Welcome to my personal website! Here I showcase some of my projects and developments. Let me know if you find any of them interesting!</p>
       
       {/* Add your projects here */}
       <motion.div
@@ -20,8 +20,11 @@ const Home = () => {
         <h2>Current Projects</h2>
         <ul>
           <li>ReCap - your all-in-one corporate meeting assistant</li>
-          <li>Project 2 - Description</li>
-          <li>Project 3 - Description</li>
+        </ul>
+        <h2>Past Projects</h2>
+        <ul>
+          <li>StayAwake - Real time drowsiness detector</li>
+          <li>Capstone - Treatment analytics for MUHC</li>
         </ul>
       </motion.div>
     </motion.div>
