@@ -20,21 +20,21 @@ const Home = () => {
       >
         <h2>Current Projects</h2>
         <ProjectItem 
-          title="ReCap - your all-in-one corporate meeting assistant"
-          description="An AI-powered meeting assistant that helps you capture, summarize, and organize key points from your corporate meetings. Built with cutting-edge natural language processing technology."
+          title="ReCap - Your all-in-one corporate meeting assistant"
+          description="A RAG powered meeting assistant that enables users to query business meeting transcriptions in natural language. It leverages vector databases and similarity search to capture, summarize, and organize meeting content, providing accurate and context-aware answers to meeting- and domain-specific questions."
           link="https://github.com/marcuskam01/recap"
         />
 
         <h2>Past Projects</h2>
         <ProjectItem 
           title="StayAwake - Real time drowsiness detector"
-          description="A computer vision application that monitors driver alertness in real-time using facial feature detection and machine learning algorithms to prevent accidents caused by drowsy driving."
-          link="https://github.com/marcuskam01/stayawake"
+          description="A real-time computer vision application that monitors driver alertness using facial landmarks and eye closure detection, alerting drivers to prevent drowsiness-related accidents. Winner of 2022 CodeJam and a qualifier for 2023 Schulich Hacks."
+          link="https://github.com/marcuskam01/"
         />
         <ProjectItem 
-          title="Capstone - Treatment analytics for MUHC"
-          description="Developed a comprehensive analytics platform for the McGill University Health Centre to analyze and optimize treatment outcomes. The project involved data processing, visualization, and predictive modeling."
-          link="https://github.com/marcuskam01/muhc-analytics"
+          title="Capstone - Treatment analytics for McGill University Health Center"
+          description="Developed an analytics platform for clinicians to analyze patient-reported treatment outcomes and optimize care plans for sickle cell anemia patients with chronic pain unrelieved by standard medication. Provided data-driven insights to support personalized treatment planning."
+          link="https://github.com/marcuskam01/"
         />
       </motion.div>
       <motion.div
