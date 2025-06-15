@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import ProjectItem from '../components/ProjectItem';
 
 const Home = () => {
   return (
@@ -18,14 +19,23 @@ const Home = () => {
         transition={{ delay: 0.2 }}
       >
         <h2>Current Projects</h2>
-        <ul>
-          <li>ReCap - your all-in-one corporate meeting assistant</li>
-        </ul>
+        <ProjectItem 
+          title="ReCap - your all-in-one corporate meeting assistant"
+          description="An AI-powered meeting assistant that helps you capture, summarize, and organize key points from your corporate meetings. Built with cutting-edge natural language processing technology."
+          link="https://github.com/marcuskam01/recap"
+        />
+
         <h2>Past Projects</h2>
-        <ul>
-          <li>StayAwake - Real time drowsiness detector</li>
-          <li>Capstone - Treatment analytics for MUHC</li>
-        </ul>
+        <ProjectItem 
+          title="StayAwake - Real time drowsiness detector"
+          description="A computer vision application that monitors driver alertness in real-time using facial feature detection and machine learning algorithms to prevent accidents caused by drowsy driving."
+          link="https://github.com/marcuskam01/stayawake"
+        />
+        <ProjectItem 
+          title="Capstone - Treatment analytics for MUHC"
+          description="Developed a comprehensive analytics platform for the McGill University Health Centre to analyze and optimize treatment outcomes. The project involved data processing, visualization, and predictive modeling."
+          link="https://github.com/marcuskam01/muhc-analytics"
+        />
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}

@@ -16,7 +16,7 @@ const Contact = () => {
       >
         <p>Feel free to connect with me through any of the following channels:</p>
         
-        <h2>Connect With Me</h2>
+        <h2>Contacts</h2>
         <ul>
           <li>
             Email: <a href="mailto:marcuskam01@gmail.com" className="textlink">marcuskam01[at]gmail.com</a>
