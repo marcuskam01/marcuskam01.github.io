@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import ProjectItem from '../components/ProjectItem';
 
 const Home = () => {
   return (
@@ -18,14 +19,23 @@ const Home = () => {
         transition={{ delay: 0.2 }}
       >
         <h2>Current Projects</h2>
-        <ul>
-          <li>ReCap - your all-in-one corporate meeting assistant</li>
-        </ul>
+        <ProjectItem 
+          title="ReCap - Your all-in-one corporate meeting assistant"
+          description="A RAG powered meeting assistant that enables users to query business meeting transcriptions in natural language. It leverages vector databases and similarity search to capture, summarize, and organize meeting content, providing accurate and context-aware answers to meeting- and domain-specific questions."
+          link="https://github.com/marcuskam01/recap"
+        />
+
         <h2>Past Projects</h2>
-        <ul>
-          <li>StayAwake - Real time drowsiness detector</li>
-          <li>Capstone - Treatment analytics for MUHC</li>
-        </ul>
+        <ProjectItem 
+          title="StayAwake - Real time drowsiness detector"
+          description="A real-time computer vision application that monitors driver alertness using facial landmarks and eye closure detection, alerting drivers to prevent drowsiness-related accidents. Winner of 2022 CodeJam and a qualifier for 2023 Schulich Hacks."
+          link="https://github.com/marcuskam01/"
+        />
+        <ProjectItem 
+          title="Capstone - Treatment analytics for McGill University Health Center"
+          description="Developed an analytics platform for clinicians to analyze patient-reported treatment outcomes and optimize care plans for sickle cell anemia patients with chronic pain unrelieved by standard medication. Provided data-driven insights to support personalized treatment planning."
+          link="https://github.com/marcuskam01/"
+        />
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}

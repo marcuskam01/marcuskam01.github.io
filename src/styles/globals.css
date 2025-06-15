@@ -144,3 +144,63 @@ body[data-theme="dark"] .theme-toggle:hover {
   max-width: 100%;
   display: block;
 }
+
+/* Project Item Styles */
+.project-item {
+  margin-bottom: 1rem;
+}
+
+.dropdown-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  color: inherit;
+  width: 100%;
+  text-align: left;
+  border-radius: 4px;
+  transition: background-color var(--transition-speed);
+}
+
+.dropdown-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+body[data-theme="dark"] .dropdown-button:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.arrow-icon {
+  font-size: 0.8rem;
+  transition: transform var(--transition-speed);
+}
+
+.dropdown-button.expanded .arrow-icon {
+  transform: rotate(180deg);
+}
+
+.project-details {
+  padding-left: 2rem;
+  overflow: hidden;
+}
+
+.project-details p {
+  margin: 0.5rem 0;
+}
+
+.project-details a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0.25rem;
+  opacity: 0.8;
+  transition: opacity var(--transition-speed);
+}
+
+.project-details a:hover {
+  opacity: 1;
+}
