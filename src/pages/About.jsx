@@ -17,23 +17,36 @@ const About = () => {
       >
         <p>Hello and thanks for stopping by! My name's Marcus, and I'm a Data Engineer based in Toronto, Canada.</p>
         <p>After making the Dean's List at McGill Engineering, I've worked with leading financial institutions across Canada including AMEX, TD, Manulife, Intact, and Desjardins.</p>
-
-        <h2>What I use for work</h2>
+      </motion.div>
+      <h2>What I use for work</h2>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
         <ul>
           <li>Python, SQL, C#, Terraform, JS/TS</li>
           <li>Snowflake</li>
           <li>Data Build Tool (DBT), Airflow, Dagster</li>
           <li>Azure, AWS</li>
         </ul>
-
-        <h2>Interests</h2>
-        <p>When I'm not coding, you can find me reading tech blogs, lifting weights, exploring nature, or trying new recipes.</p>
       </motion.div>
+      
+      <h2>Interests</h2>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 0.2 }}>
-        <h2>Where I've been</h2>
+        transition={{ delay: 0.2 }}
+      >
+        <p>When I'm not coding, you can find me reading tech blogs, learning about aviation, or exploring nature.</p>
+      </motion.div>
+      
+      <h2>Where I've been</h2>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
         <img src={hiking1} alt="Hiking picture 1" className="responsive-image-landscape"></img>
         <figcaption>Waterton, AB, Summer 2024</figcaption>
       </motion.div>
