@@ -78,6 +78,16 @@ body[data-theme="dark"] .nav-container {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.theme-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+body[data-theme="dark"] .theme-icon {
+  filter: invert(1);
+}
+
 .textlink {
   color: #575757;
   background-color: transparent;
