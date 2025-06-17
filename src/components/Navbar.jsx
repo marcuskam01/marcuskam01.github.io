@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import brightIcon from '../assets/bright.svg';
+import lightIcon from '../assets/light.svg';
 import darkIcon from '../assets/dark.svg';
 
 const Navbar = ({ theme, toggleTheme }) => {
@@ -12,7 +12,7 @@ const Navbar = ({ theme, toggleTheme }) => {
       </div>
       <button onClick={toggleTheme} className="theme-toggle">
         <img 
-          src={theme === 'light' ? darkIcon : brightIcon} 
+          src={theme === 'light' ? darkIcon : lightIcon} 
           alt={theme === 'light' ? "Switch to dark mode" : "Switch to light mode"}
           className="theme-icon"
         />
