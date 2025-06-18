@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
 import hiking1 from '/src/assets/hiking_1.JPG';
+import lake1 from '/src/assets/lake_1.jpg';
+import shore1 from '/src/assets/shore_1.jpg'
 
 const About = () => {
   return (
@@ -49,6 +51,14 @@ const About = () => {
       >
         <img src={hiking1} alt="Hiking picture 1" className="responsive-image-landscape"></img>
         <figcaption>Waterton, AB, Summer 2024</figcaption>
+
+        <br />
+        <img src={lake1} alt="Lake picture 1" className="responsive-image-landscape"></img>
+        <figcaption>Mont-Tremblant, QC, Spring 2023</figcaption>
+
+        <br />
+        <img src={shore1} alt="Shore picture 1" className="responsive-image-landscape"></img>
+        <figcaption>Cascais, Portugal, Winter 2022</figcaption>
       </motion.div>
     </motion.div>
   );

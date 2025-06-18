@@ -14,7 +14,7 @@ const Contact = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        <p>Feel free to connect with me through any of the following channels:</p>
+        <p>Let's connect on the following channels!</p>
         
         <h2>Contacts</h2>
         <ul>
