@@ -20,9 +20,9 @@ const Home = () => {
       >
         <h2>Current Projects</h2>
         <ProjectItem 
-          title="ReCap - Your all-in-one corporate meeting assistant"
-          description="A RAG powered meeting assistant that enables users to query business meeting transcriptions in natural language. It leverages vector databases and similarity search to capture, summarize, and organize meeting content, providing accurate and context-aware answers to meeting- and domain-specific questions."
-          link="https://github.com/marcuskam01/recap"
+          title="DexSuite - Dexterous hand control"
+          description="Building with Python, Gymnasium, and Genesis. Coming soon"
+          link="https://github.com/marcuskam01/"
         />
 
         <h2>Past Projects</h2>
