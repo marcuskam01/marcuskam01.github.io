@@ -3,6 +3,7 @@ import hiking1 from '/src/assets/hiking_1.JPG';
 import lake1 from '/src/assets/lake_1.jpg';
 import shore1 from '/src/assets/shore_1.jpg'
 import grass1 from '/src/assets/grass_1.jpg';
+import mountain1 from '/src/assets/mountain_1.jpg';
 
 const About = () => {
   return (
@@ -18,7 +19,7 @@ const About = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        <p>Hello and thanks for stopping by! My name's Marcus, and I'm a Data Engineer based in Toronto, Canada.</p>
+        <p>Hello and thanks for stopping by! My name's Marcus, and I'm a ML Ops Engineer based in Toronto, Canada. My past experience includes Data Engineering and Backend Development.</p>
         <p>After making the Dean's List at McGill Engineering, I've worked with leading financial institutions across Canada including AMEX, TD, Manulife, Intact, and Desjardins.</p>
       </motion.div>
       <h2>What I use for work</h2>
@@ -50,6 +51,10 @@ const About = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
+        <img src={mountain1} alt="Mountain picture 1" className="responsive-image-landscape"></img>
+        <figcaption>Cypress Mountain, BC, Winter 2025</figcaption>
+
+        <br />
         <img src={hiking1} alt="Hiking picture 1" className="responsive-image-landscape"></img>
         <figcaption>Waterton, AB, Summer 2024</figcaption>
 
