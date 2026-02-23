@@ -23,8 +23,8 @@ function App() {
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <AnimatePresence mode="wait">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/building" element={<Home />} />
+          <Route path="/" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </AnimatePresence>
