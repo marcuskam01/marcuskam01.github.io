@@ -34,7 +34,7 @@ const Home = () => {
         <ProjectItem
           title="Capstone - Treatment analytics for McGill University Health Center"
           description="Developed an analytics platform for clinicians to analyze patient-reported treatment outcomes and optimize care plans for sickle cell anemia patients with chronic pain unrelieved by standard medication. Provided data-driven insights to support personalized treatment planning."
-          link="https://github.com/marcuskam01/"
+          link="https://www.linkedin.com/in/marcuskam/overlay/Project/837592776/treasury/?profileId=ACoAAC738KcBjmxY4kGs1Xbe8prK9GJvCudrCEA"
         />
       </motion.div>
       <motion.div

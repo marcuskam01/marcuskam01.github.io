@@ -30,21 +30,21 @@ const About = () => {
       >
         <ul>
           <li>Python, SQL, C#, Terraform, JS/TS</li>
-          <li>Snowflake</li>
+          <li>Snowflake, Docker, Kubernetes</li>
           <li>Data Build Tool (DBT), Airflow, Dagster</li>
           <li>Azure, AWS</li>
         </ul>
       </motion.div>
-      
+
       <h2>Interests</h2>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        <p>When I'm not coding, you can find me reading tech blogs, learning about aviation, or exploring nature.</p>
+        <p>When I'm not away from my laptop, you can find me at the gym, learning about aviation, or exploring nature.</p>
       </motion.div>
-      
+
       <h2>Where I've been</h2>
       <motion.div
         initial={{ opacity: 0 }}
