@@ -54,7 +54,7 @@ const About = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        <p>When I'm not away from my laptop, you can find me at the gym, learning about aviation, or exploring nature.</p>
+        <p>When I'm away from my laptop, you can find me at the gym, learning about aviation, or exploring nature.</p>
       </motion.div>
 
       <h2>Where I've been</h2>
