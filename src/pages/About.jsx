@@ -19,7 +19,7 @@ const About = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        <p>Hello and thanks for stopping by! My name's Marcus, and I'm a Machine Learning Ops Engineer based in Toronto, Canada. Besides Machine Learning platform engineering, my past experience includes Data Engineering and Backend Development.</p>
+        <p>Hello and thanks for stopping by! My name's Marcus, and I'm a Machine Learning Ops Engineer based in the Greater Toronto Area, Canada. Besides Machine Learning platform engineering, my past experience includes Data Engineering and Backend Development.</p>
         <p>After making the Dean's List at McGill Engineering, I've worked with leading financial institutions across Canada including AMEX, TD, Manulife, Intact, and Desjardins.</p>
       </motion.div>
       <h2>Core skills</h2>
