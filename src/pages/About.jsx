@@ -19,8 +19,20 @@ const About = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        <p>Hello and thanks for stopping by! My name's Marcus, and I'm a ML Ops Engineer based in Toronto, Canada. My past experience includes Data Engineering and Backend Development.</p>
+        <p>Hello and thanks for stopping by! My name's Marcus, and I'm a Machine Learning Ops Engineer based in Toronto, Canada. Besides Machine Learning platform engineering, my past experience includes Data Engineering and Backend Development.</p>
         <p>After making the Dean's List at McGill Engineering, I've worked with leading financial institutions across Canada including AMEX, TD, Manulife, Intact, and Desjardins.</p>
+      </motion.div>
+      <h2>Core skills</h2>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        <ul>
+          <li>Agentic AI and LLM Evaluation (LLM-as-judge, code-based, humans-based)</li>
+          <li>End-to-end data pipeline development (ingestion, modelling, transformation, testing)</li>
+          <li>Model deployment and observability (autoscaling, cost & token efficiency)</li>
+        </ul>
       </motion.div>
       <h2>What I use for work</h2>
       <motion.div
