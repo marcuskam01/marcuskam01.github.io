@@ -47,6 +47,7 @@ const Home = () => {
           <li>Practical MLOps: Operationalizing Machine Learning Models</li>
           <li>The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling</li>
           <li>Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems</li>
+          <li>Distributed Machine Learning Patterns</li>
         </ul>
       </motion.div>
     </motion.div>
